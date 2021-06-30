@@ -1,0 +1,13 @@
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    position: sticky;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+}
