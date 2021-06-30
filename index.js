@@ -31,6 +31,5 @@ stop.addEventListener("click", () => {
     start.removeAttribute("disabled");
 
     recorder.stop();
-    stream.getVideoTracks()[0].stop();
-    video.setAttribute("controls", "controls");
+    stream.getVideoTracks()[0].stop();;
 });
